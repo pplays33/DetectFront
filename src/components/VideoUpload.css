@@ -1,0 +1,44 @@
+.beautiful-form {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px; 
+    box-shadow: 0 0 10px gray; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    background: #fff;
+}
+
+
+
+.button {
+    background-color: #4CAF50; /* Измените фоновый цвет кнопки на желаемый */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px; /* Скругление углов кнопки */
+    text-decoration: none;
+    font-size: 16px; /* Размер шрифта кнопки */
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .button:hover {
+    background-color: #45a049;
+  }
+  /* Для кнопки со схемой теней */
+  .button-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* Для кнопки с эффектом при нажатии */
+  .button-active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .button-active:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+  }

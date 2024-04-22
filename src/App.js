@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
+import VideoUpload from './components/VideoUpload';
+import Header from './components/Header';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="Form-For-Video_upload">
+        <h1>Загрузка Видео:</h1>
+        <VideoUpload className="Form-For-Video_upload"/>
+      </div>
     </div>
   );
 }
-
 export default App;
